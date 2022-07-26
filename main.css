@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #181818;
+  color: rgb(220, 213, 213);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav img {
+  border-radius: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav span {
+  color: violet;
+}
