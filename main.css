@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+@import url("hover-min.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +22,10 @@ html {
   justify-content: space-between;
 }
 
+.nav ul {
+  padding-left: 2rem;
+}
+
 .nav img {
   border-radius: 1.5rem;
   margin-right: 1rem;
@@ -37,7 +43,9 @@ html {
 .nav span {
   color: violet;
 }
-
+.about__container {
+  height: 100%;
+}
 .img_container {
   display: flex;
   justify-content: space-between;
@@ -50,12 +58,36 @@ html {
   width: 24vw;
   /* padding: 3rem; */
   border-radius: 5rem;
+  margin-left: 3rem;
 }
 
 .para {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .para h2 {
   margin-top: 1rem;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+}
+
+.tools__container {
+  margin-top: 3rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 2.8rem;
+  gap: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.icons p {
+  font-size: 1rem;
 }
