@@ -297,7 +297,7 @@ p {
 @media screen and (max-width: 524px) {
   .img_container img {
     height: 20vh;
-    width: 55vw;
+    width: 40vw;
 
     margin-left: 0;
   }
