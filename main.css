@@ -270,16 +270,20 @@ section {
 
 @media screen and (max-width: 524px) {
   .img_container img {
-    height: 13vh;
+    height: 11vh;
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 431px) {
   .img_container img {
-    height: 6vh;
-    width: 18vw;
+    height: 19vh;
+    width: 43vw;
     margin-left: 0;
+  }
+
+  .img_container {
+    display: block;
   }
 
   .nav {
