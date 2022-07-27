@@ -257,28 +257,38 @@ section {
 
 @media screen and (max-width: 736px) {
   .img_container img {
-    width: 15vw;
-    height: 11vh;
+    width: 50vw;
+    height: 40vh;
     margin-left: 0;
   }
 
-  .para h1,
+  .img_container {
+    display: block;
+  }
+
+  /* .para h1,
   .para h2 {
     font-size: 0.8rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 524px) {
   .img_container img {
-    height: 11vh;
+    height: 30vh;
+    width: 55vw;
+
     margin-left: 0;
+  }
+
+  .img_container {
+    display: block;
   }
 }
 
 @media screen and (max-width: 431px) {
   .img_container img {
-    height: 19vh;
-    width: 43vw;
+    height: 20vh;
+    width: 40vw;
     margin-left: 0;
   }
 
