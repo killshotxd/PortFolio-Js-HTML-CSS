@@ -65,7 +65,8 @@ section {
 }
 .img_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   padding: 1.5rem;
   gap: 1rem;
   text-align: center;
@@ -76,11 +77,11 @@ section {
   /* padding: 3rem; */
   border-radius: 5rem;
   margin-left: 5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .para {
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
 }
 
 .para h2 {
@@ -238,4 +239,50 @@ section {
 
 .tools h2 {
   margin-top: 5rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  .img_container img {
+    width: 20vw;
+    height: 24vh;
+  }
+
+  .para h1,
+  .para h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .img_container img {
+    width: 15vw;
+    height: 18vh;
+    margin-left: 0;
+  }
+
+  .para h1,
+  .para h2 {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .img_container img {
+    height: 13vh;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .img_container img {
+    height: 6vh;
+    width: 18vw;
+    margin-left: 0;
+  }
+
+  .nav {
+    font-size: 0.5rem;
+  }
 }
